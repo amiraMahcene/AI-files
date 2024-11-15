@@ -1,0 +1,16 @@
+Linux Command Basic
+sudo  :  la racine ou bien access vers la racine d'utilisation
+dnf
+update
+upgrade 
+pwd : print working directory
+ls : list fines
+ls -a : list hidding directory
+cd : change directory
+
+2 - Files and Directories 
+touch  filename 
+mkdir directoryname
+mv newnameoffile oldnameoffile
+cp Cpy files/directoryies 
+
