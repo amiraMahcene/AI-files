@@ -1,5 +1,4 @@
-You said:
-correct this to me and write them in a structured orginized way : Linux Command Basic
+Linux Command Basic
 sudo  :  la racine ou bien access vers la racine d'utilisation
 dnf
 update
