@@ -1,23 +1,4 @@
-You said:
-correct this to me and write them in a structured orginized way : Linux Command Basic
-sudo  :  la racine ou bien access vers la racine d'utilisation
-dnf
-update
-upgrade 
-pwd : print working directory
-ls : list fines
-ls -a : list hidding directory
-cd : change directory
 
-2 - Files and Directories 
-touch  filename 
-mkdir directoryname
-mv newnameoffile oldnameoffile
-cp Cpy files/directoryies 
-ChatGPT said:
-ChatGPT
-
-Here’s a corrected and organized version of your content:
 Linux Command Basics
 1. Root Access
 
