@@ -1,0 +1,92 @@
+# Exercises
+# 1. Create a list of numbers and find the largest and smallest elements.
+# 2. Write a function that takes a list and returns a new list with unique elements.
+# 3. Reverse a list without using slicing or the `reverse()` method.
+# 4. Write a function that counts occurrences of a given element in a list.
+# 5. Flatten a nested list using recursion.
+# 6. Create a new list with only the even numbers from an existing list.
+# 7. Find the intersection of two lists.
+# 8. Given a list of integers, create a list of cumulative sums.
+# 9. Write a function that removes duplicate elements from a list.
+# 10. Rotate a list to the right by a given number of steps.
+
+# Solutions to Exercises
+
+# 1. Largest and Smallest Elements
+def find_min_max(lst):
+    return min(lst), max(lst)
+
+print("Min and Max:", find_min_max([3, 1, 4, 1, 5]))
+
+# 2. Unique Elements
+def unique_elements(lst):
+    return list(set(lst))
+
+print("Unique Elements:", unique_elements([1, 2, 2, 3, 4, 4]))
+
+# 3. Reverse a List
+def reverse_list(lst):
+    reversed_list = []
+    for i in range(len(lst) - 1, -1, -1):
+        reversed_list.append(lst[i])
+    return reversed_list
+
+print("Reversed List:", reverse_list([1, 2, 3, 4]))
+
+# 4. Count Occurrences
+def count_occurrences(lst, elem):
+    return lst.count(elem)
+
+print("Occurrences:", count_occurrences([1, 2, 2, 3, 3, 3], 3))
+
+# 5. Flatten Nested List
+def flatten_list(nested_lst):
+    flat_list = []
+    for sublist in nested_lst:
+        for item in sublist:
+            flat_list.append(item)
+    return flat_list
+
+print("Flattened List:", flatten_list([[1, 2], [3, 4], [5, 6]]))
+
+# 6. Even Numbers
+def even_numbers(lst):
+    return [x for x in lst if x % 2 == 0]
+
+print("Even Numbers:", even_numbers([1, 2, 3, 4, 5, 6]))
+
+# 7. Intersection of Two Lists
+def list_intersection(lst1, lst2):
+    return list(set(lst1) & set(lst2))
+
+print("Intersection:", list_intersection([1, 2, 3], [2, 3, 4]))
+
+# 8. Cumulative Sums
+def cumulative_sum(lst):
+    cum_sum = []
+    current_sum = 0
+    for num in lst:
+        current_sum += num
+        cum_sum.append(current_sum)
+    return cum_sum
+
+print("Cumulative Sums:", cumulative_sum([1, 2, 3, 4]))
+
+# 9. Remove Duplicates
+def remove_duplicates(lst):
+    return list(dict.fromkeys(lst))
+
+print("No Duplicates:", remove_duplicates([1, 2, 2, 3, 4, 4, 5]))
+
+# 10. Rotate List
+def rotate_list(lst, steps):
+    steps = steps % len(lst)
+    return lst[-steps:] + lst[:-steps]
+
+print("Rotated List:", rotate_list([1, 2, 3, 4, 5], 2))
+
+# Summary
+# - Lists are versatile and easy to use for storing and manipulating collections of data.
+# - They are mutable, allowing for dynamic updates.
+# - Python provides a rich set of methods and functionalities for working with lists.
+

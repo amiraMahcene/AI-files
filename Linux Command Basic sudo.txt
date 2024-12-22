@@ -29,3 +29,6 @@ Files and Directories Management
 3. Copying Files and Directories
 
     cp [source] [destination]: Copies files or directories to a specified location.
+    
+    cp Copyfile 
+    cp file1 to file2
