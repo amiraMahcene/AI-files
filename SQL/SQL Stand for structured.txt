@@ -1,0 +1,8 @@
+SQL =  Stand for structured Query Language
+is a programming language for database
+to understand what SQL did actually, we have to understand first what we mean by Database
+Databasse : is an electronical place where we can store structured and in an orginizes way our data
+data : data is any information we manipulate into the computer
+database is a good way to store, orgnize and manipulate data in an easy way, which give us more easy access, retrive and work on our data
+
+To work on our data (get insight fromit for example we have to get access to our database to do that we have to get communicate with the database, here the  SQL play a role, which give us the opportuninty to communicate and mange our data

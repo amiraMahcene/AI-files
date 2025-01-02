@@ -1,0 +1,215 @@
+### **Part 1: Dictionaries in Python**
+
+#### **1. Introduction to Dictionaries**
+- **Definition**: A dictionary is a collection of key-value pairs, where each key is unique.
+- **Syntax**:
+```python
+my_dict = {"key1": "value1", "key2": "value2"}
+```
+
+#### **2. Dictionary Operations**
+1. **Creating a Dictionary**:
+```python
+my_dict = {
+    "name": "Amira",
+    "age": 25,
+    "profession": "Software Engineer"
+}
+```
+
+2. **Accessing Values**:
+```python
+print(my_dict["name"])  # Output: Amira
+```
+
+3. **Adding/Updating Key-Value Pairs**:
+```python
+my_dict["location"] = "Algeria"  # Add a new key-value pair
+my_dict["age"] = 26  # Update an existing key
+```
+
+4. **Removing Key-Value Pairs**:
+```python
+del my_dict["profession"]  # Remove a key-value pair
+```
+
+5. **Common Methods**:
+- `.keys()`: Returns all keys
+- `.values()`: Returns all values
+- `.items()`: Returns key-value pairs as tuples
+```python
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+```
+
+#### **3. Nested Dictionaries**
+```python
+students = {
+    "student1": {"name": "Ali", "grade": "A"},
+    "student2": {"name": "Sara", "grade": "B"}
+}
+print(students["student1"]["name"])  # Output: Ali
+```
+
+#### **4. Exercises on Dictionaries**
+1. **Count Word Frequency**:
+Write a program to count the frequency of each word in a string.
+```python
+text = "apple banana apple orange banana apple"
+# Expected Output: {'apple': 3, 'banana': 2, 'orange': 1}
+```
+
+2. **Student Grades**:
+Create a dictionary that stores student names as keys and their grades as values. Write a program to find the highest and lowest grades.
+
+---
+
+### **Part 2: Sets in Python**
+
+#### **1. Introduction to Sets**
+- **Definition**: A set is an unordered collection of unique elements.
+- **Syntax**:
+```python
+my_set = {1, 2, 3, 4}
+```
+
+#### **2. Set Operations**
+1. **Creating a Set**:
+```python
+my_set = {1, 2, 3}
+```
+
+2. **Adding/Removing Elements**:
+```python
+my_set.add(4)
+my_set.remove(2)
+```
+
+3. **Set Operations**:
+- **Union**:
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1 | set2)  # Output: {1, 2, 3, 4, 5}
+```
+- **Intersection**:
+```python
+print(set1 & set2)  # Output: {3}
+```
+- **Difference**:
+```python
+print(set1 - set2)  # Output: {1, 2}
+```
+- **Symmetric Difference**:
+```python
+print(set1 ^ set2)  # Output: {1, 2, 4, 5}
+```
+
+#### **3. Exercises on Sets**
+1. **Remove Duplicates**:
+Given a list of numbers, remove all duplicates using a set.
+```python
+numbers = [1, 2, 2, 3, 4, 4, 5]
+# Expected Output: {1, 2, 3, 4, 5}
+```
+
+2. **Set Operations**:
+Write a program that finds the common elements between two lists using sets.
+```python
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+# Expected Output: {3, 4}
+```
+
+---
+
+### **Part 3: Object-Oriented Programming (OOP) in Python**
+
+#### **1. Introduction to OOP**
+- **What is OOP?**
+  - A programming paradigm based on objects and classes.
+- **Key Principles**:
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+#### **2. Classes and Objects**
+1. **Defining a Class**:
+```python
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+student1 = Student("Amira", 25)
+student1.greet()
+```
+
+2. **Attributes and Methods**:
+- **Instance Attributes**: Specific to each object.
+- **Class Attributes**: Shared by all objects of the class.
+
+#### **3. Inheritance**
+1. **Defining a Base Class**:
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print("Animal sounds")
+```
+2. **Defining a Derived Class**:
+```python
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+dog = Dog("Buddy")
+dog.speak()  # Output: Woof!
+```
+
+#### **4. Polymorphism**
+1. **Method Overriding**:
+```python
+class Shape:
+    def area(self):
+        pass
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side * self.side
+
+square = Square(4)
+print(square.area())  # Output: 16
+```
+
+#### **5. Practice Projects on OOP**
+1. **Library Management System**:
+Create a `Library` class that allows users to:
+- Add books to the library
+- Borrow books
+- Return books
+
+2. **Bank Account System**:
+Create a `BankAccount` class that allows users to:
+- Deposit money
+- Withdraw money
+- Check balance
+
+3. **Student Management System**:
+Create a system where you can add students, update their grades, and display their details.
+
+---
+
+### **Conclusion**
+By completing this course, you’ll have a strong understanding of dictionaries, sets, and OOP in Python. You’ll also be able to apply these concepts to real-world problems effectively. Happy coding!
+
+

@@ -1,0 +1,19 @@
+Poste Ing de  develloppement en Informatique.
+
+Question 01 ( 6 points): Expliquer la POO et ces caractéristiques en détails.
+
+Question 02 (06 points) : 
+QCM : cocher la bonne réponse
+
+a- SQL vs NoSQL :  coccher les affirmations correctes.
+
+b- programmation agile :  quel est l' outil le plus connus ?  scrum...,
+
+c- algorithme de trouver le plus cours chemin dans un graphe avec des valeurs négatives: Dijkstra, bellman ford, prim,...
+
+d- formes normales :  1NF, 2NF, 3NF, BCNF..., Dans quel forme normale les redondances sont suprimé ? 
+e- POO :  encapsulation, héritage, polymorphisme, abstraction :  parmi eux dans quel aspect les données et les méthodes sont regroupés
+
+Qustion 03 : (08points)
+
+Décrire l' algorithme de tri à bulle.

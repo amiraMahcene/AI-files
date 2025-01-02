@@ -90,3 +90,22 @@ print("Rotated List:", rotate_list([1, 2, 3, 4, 5], 2))
 # - They are mutable, allowing for dynamic updates.
 # - Python provides a rich set of methods and functionalities for working with lists.
 
+
+[24,
+ 'Good Luck',
+ 'Good Luck',
+ 'Good Luck',
+ 'Good Luck',
+ 10,
+ True,
+ 7,
+ 8,
+ 9,
+ 'Good Luck',
+ 'Good Luck',
+ [0, 1, 0]]
+ 
+ def another_list(arr):
+    copy_list= arr
+    copy_list.insert(1,"Good Luck")
+    return copy_list 
