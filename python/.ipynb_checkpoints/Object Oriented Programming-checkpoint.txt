@@ -1,0 +1,160 @@
+Object-Oriented Programming in Python
+Lesson 1: Introduction to OOP
+1.1 What is Object-Oriented Programming (OOP)?
+
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which contain data (attributes) and methods (functions).
+1.2 Key OOP Concepts
+
+    Class: A blueprint for creating objects.
+    Object: An instance of a class.
+    Attributes: Variables that store data inside an object.
+    Methods: Functions that define object behaviors.
+    Encapsulation: Hiding data to protect it from unintended modifications.
+    Inheritance: A class can inherit attributes and methods from another class.
+    Polymorphism: Methods can be overridden to behave differently in subclasses.
+
+1.3 Creating a Class and Object
+
+Example:
+
+# Defining a class
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print(f"{self.year} {self.brand} {self.model}")
+
+# Creating an object
+car1 = Car("Toyota", "Corolla", 2022)
+car1.display_info()  # Output: 2022 Toyota Corolla
+
+Exercise 1:
+
+    Define a class called Student with attributes name, age, and grade.
+    Create a method display_info() that prints the student’s details.
+    Instantiate an object and display its details.
+
+Lesson 2: Encapsulation
+2.1 What is Encapsulation?
+
+Encapsulation restricts access to data by making attributes private using double underscores (__).
+2.2 Example of Encapsulation
+
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.__balance = balance  # Private attribute
+
+    def deposit(self, amount):
+        self.__balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+        else:
+            print("Insufficient funds!")
+
+    def get_balance(self):
+        return self.__balance
+
+# Creating an account
+account = BankAccount("Amira", 1000)
+account.deposit(500)
+print(account.get_balance())  # Output: 1500
+
+Exercise 2:
+
+    Create a Book class with attributes title, author, and __price (private).
+    Define a method set_price() to update the price.
+    Define get_price() to access the price.
+    Create an object and test it.
+
+Lesson 3: Inheritance
+3.1 What is Inheritance?
+
+Inheritance allows a class to inherit attributes and methods from another class.
+3.2 Example of Inheritance
+
+# Parent class
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return "I make a sound"
+
+# Child class (inherits from Animal)
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+# Creating objects
+dog = Dog("Buddy")
+cat = Cat("Luna")
+
+print(dog.speak())  # Output: Woof!
+print(cat.speak())  # Output: Meow!
+
+Exercise 3:
+
+    Create a Person class with attributes name and age.
+    Create a subclass Employee that adds job_title and salary.
+    Override a method display_info() in Employee to print all details.
+
+Lesson 4: Polymorphism
+4.1 What is Polymorphism?
+
+Polymorphism allows methods in different classes to share the same name but have different implementations.
+4.2 Example of Polymorphism
+
+class Bird:
+    def fly(self):
+        return "Birds can fly"
+
+class Penguin(Bird):
+    def fly(self):
+        return "Penguins cannot fly"
+
+# Creating objects
+bird = Bird()
+penguin = Penguin()
+
+print(bird.fly())   # Output: Birds can fly
+print(penguin.fly())  # Output: Penguins cannot fly
+
+Exercise 4:
+
+    Create a Shape class with a method area().
+    Create two subclasses: Rectangle and Circle.
+    Override the area() method in both classes.
+    Instantiate objects and print their areas.
+
+Lesson 5: Advanced OOP - Magic Methods
+5.1 Magic Methods (__str__, __len__, __add__, etc.)
+
+Python has special methods called dunder (double underscore) methods, used for operator overloading.
+5.2 Example of __str__ Method
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"Person({self.name}, {self.age} years old)"
+
+person = Person("Amira", 25)
+print(person)  # Output: Person(Amira, 25 years old)
+
+Exercise 5:
+
+    Create a Point class with attributes x and y.
+    Implement __str__() to return a formatted string like "Point(x, y)".
+    Implement __add__() to add two points.
