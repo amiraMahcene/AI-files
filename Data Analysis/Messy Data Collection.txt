@@ -1,0 +1,250 @@
+Messy Data Collection: Student's thoughts on data 
+Before solving the cafeteria problem, students brainstrom what kind of data they think might be useful. But in reality not all the data going to be relevant or structured correctly
+
+Raw, Messy Data (Unstructured Student Thoughts)
+
+💭 “Maybe the color of the cafeteria walls affects food choices?”
+💭 “We should count how many napkins people use!”
+💭 “I think students who like football eat more pizza.”
+💭 “What if we track what music is playing in the cafeteria?”
+💭 “We need to know if kids are hungry before they eat!”
+💭 “We should ask students if they like math or science.”
+💭 “Let's count the number of chairs in the cafeteria.”
+💭 “We should check how many students eat lunch every day.” ✅
+💭 “It’s important to know which foods run out the fastest.” ✅
+💭 “We should track what students actually order vs. what they want to order.” ✅
+💭 “Maybe the number of teachers in the cafeteria changes things?”
+💭 “Do students eat more when it’s cold outside?”
+
+
+Step 01 :  Choosing the right data ( Data Cleaning process)
+
+✅ Useful Data (Relevant to the Cafeteria Problem)
+✔ Number of students eating daily
+✔ Which food items are chosen most
+✔ How quickly certain foods run out
+✔ Whether demand changes based on the day of the week
+✔ Comparing orders to actual food served
+
+🚫 Unnecessary Data (Not Helpful for Solving the Problem)
+❌ The wall color
+❌ The number of napkins used
+❌ Students' favorite school subjects
+❌ The music playing in the cafeteria
+❌ The number of chairs
+
+Step 02, why is Cleaning Data is important
+
+“How do we know if a piece of data is useful or just random?”
+Good data should be:
+
+   * Relevant → It helps answer the problem.
+   * Accurate → Based on real observations, not guesses.
+   * Organized → Easy to read and analyze.
+   
+Step 3 : Now let's Use the Clean Data 
+
+After selecting the useful data, students can now build their organized dataset and start their analysis 
+In data analysis, we categorize data into different types based on its characteristics. Let’s apply this to our cafeteria problem!
+
+Qualitative (Categorical) Data
+Food choices: Pizza, Sandwich, Salad, Pasta (Categories of food—no numbers!)
+✅ Day of the week: Monday, Tuesday, Wednesday... (Days are categories, not numbers!)
+✅ Student preferences: "I like pizza more than pasta" (Opinions are qualitative!)
+✅ Music playing in the cafeteria: Rock, Pop, Classical (Music type is a categor
+
+Quantitative (Numerical) Data
+This type of data consists of numbers that can be measured or counted. It can be divided into two subtypes : 
+
+a) Discrete Data (Countable numbers)
+
+These are whole numbers, things you can count—no decimals!
+
+✅ Number of students eating in the cafeteria each day (e.g., 50, 60, 75)
+✅ Number of students choosing pizza, sandwiches, etc. (e.g., 30 students chose pizza)
+✅ Number of trays used per day
+✅ Number of meals left uneaten
+
+b) Continuous Data (Measurable numbers)
+
+These are numbers that can take any value within a range (including decimals).
+
+✅ Temperature in the cafeteria (e.g., 22.5°C, 24.3°C)
+✅ Time students spend waiting in line (e.g., 5.2 minutes, 6.8 minutes)
+✅ Weight of food waste each day (e.g., 1.3 kg of leftover food)
+
+ Structured vs. Unstructured Data
+
+    * Structured Data → Well-organized and easy to analyze (e.g., the cafeteria table we created).
+    * Unstructured Data → Messy, random information (e.g., students' random thoughts before we cleaned the data).
+    
+ How to Clean and Organize Data?
+Before analyzing data, we need to clean and organize it to remove errors, make it clear, and ensure it helps solve our problem. Let’s go step by step using our cafeteria problem
+
+Why Do We Need to Organize Data in a Table?  
+Before we can analyze data, we need to organize it properly. The best way to do this is by using a table. But why?
+
+Reasons Why We Organize Data in a Table:
+
+1️⃣ Easy to Read → Instead of messy information everywhere, a table makes data clear and structured.
+2️⃣ Easy to Compare → We can quickly see trends and differences (e.g., which food is most popular?).
+3️⃣ Helps Avoid Mistakes → When data is disorganized, it's easy to miss errors or duplicate values.
+4️⃣ Prepares for Analysis → Clean, structured data can be used for graphs, calculations, and insights.
+
+Step 1: Put the Messy Data into a Table
+Imagine we collected random, unorganized data like this:
+
+"Monday had 50 students. 30 ordered pizza. On Tuesday, 60 students ate, and 35 had pizza. Some students left food on their plates. Salad was eaten by 5 students on Monday. Wednesday had 55 students, and pasta was ordered 5 times each day."
+
+Day	Number of Students	Pizza	Sandwich	Salad	Pasta
+Monday	      50	          30	  10	          5	5
+Tuesday	      -60	          35	  -15	          5	5
+Wednesday     55	          32	  12	          6	5
+
+
+Step 2: Cleaning the Data
+
+Once we have a table, we can spot errors easily:
+
+    Misspellings (e.g., “Wednsday” → "Wednesday")
+    Wrong Numbers (e.g., "-60 students" doesn’t make sense)
+    Missing Values (e.g., ?? for missing student count)
+    
+
+Step 3: Organize Data Clearly
+Once cleaned, data should be easy to read and analyze.
+
+Organizing Tips:
+
+    - Use tables → Data should be structured neatly in rows/columns.
+    - Group similar categories together → (All food types in one section).
+    - Use correct labels → "Wednsday" should be "Wednesday."
+    - Sort logically → By day of the week or number of students.
+
+Key Takeaway:
+* Messy data = Confusing, hard to analyze 
+* Organized tables = Clear, easy to find patterns
+
+Cafeteria Food Data (Two Weeks) 📊
+
+Each day, students choose between Pizza, Sandwich, Salad, and Pasta. The number of students in the cafeteria varies daily.
+Day	Total Students	Pizza 🍕	Sandwich 🥪	Salad 🥗	Pasta 🍝
+Monday	        50	30	          10	          5	          5
+Tuesday	        60	35	          15	          5	          5
+Wednesday	55	32	          12	          6               5
+Thursday	70	45	          15	          5	          5
+Friday	        65	40	          12              8	          5
+Monday	        52	28	          14	          5	          5
+Tuesday 	68	38	          18	          6	          6
+Wednesday	58	34	          13	          6	          5
+Thursday	75	50	          18	          4	          3
+Friday	        63	42	          14	          5	          2
+
+Step 4: Check for Duplicates and Missing Data
+
+- If a day is repeated, remove duplicates.
+- If a number is missing, try to fill it in logically (e.g., use the average from other days).
+
+
+Try yourself : 
+Day	Students Pizza	Sandwich	Salad	Pasta	Favorite Drink	Food Waste	Temperature	Day	Num of Kids	Pizaa	Sandwiche	Salads	 Passta
+Monday	 50	30	10	         5	5	Cola	          3 kg	         22°C	         Mon	   50	        30	10	5	5
+Tuesd	60	35	15	        five	5	Juice	          2.5kg	         21C	         Tuesday   Sixty	35	15	5	5
+Wednsday	55	32	        12	6	5	          Water	         23°C	         Wednesday 55	        32	12	6	five
+Thursday	70	45	        15	5	5	          Cola   	3.1 kg	         ??	   Thrsday	70	45	15	5	5
+Friday	65	40	twlve	        8	5	Juice	          -1 kg	        20.5°C	         Friyday   65	        40	12	8	5
+Monday	50	30	10	        5	5	Water	          2 kg	        22°C	         Mon	   50	        30	10	5	5
+Tuesd	60	35	15	        5	5	Juice	          ??	        21°C	         Tuesday   60	        35	15	five	5
+Wednsday	55	32	        12	6	5	         Water	        3.2 kg	         23°C	   Wednesday	??	32	12	6	5
+Monday	48	25	8	        6	4	Tea	         2.3 kg	        24°C	         Mon	   48	        25	8	6	4
+Friday	70	42	14	        7	6	Juice	         3.5 kg	        19.8°C	         Fridy	   70	        42	14	7	6
+Tuesday	58	34	12	        4	6	Coffee	         2.8 kg	        21°C	         Tuesdy	   58	        34	12	4	6
+Wednesday	54	30	        11	5	5	         Water	        3.0 kg	         ??	   Wed	        54	30	11	5	5
+Thursday	??	38	        13	5	6	         Tea	        3.2 kg	         22.5°C	   Thurs	68	38	13	5	6
+Friday	66	39	13	        ??	5	Juice	         3.1 kg	        20°C	         Frday	   66	        39	13	7	5
+Monday	52	31	9	        5	5	Cola	         2.5 kg	        23°C	         Moonday   52	        31	9	5	5
+Tuesday	59	33	13	        5	4	Juice	         3.0 kg	        21.3°C	         Tues	   59	        33	13	5	4
+Wednesday	57	36	       14	6	5	         Water	        3.4 kg           22°C
+
+
+
+- Identify and remove any rows that are repeated.
+- Fix typos like "Wednsday" → "Wednesday", "Pizaa" → "Pizza".
+- Convert words to numbers ("twelve" → 12, "Sixty" → 60).
+- Standardize units ("2.5kg" → "2.5 kg").
+- The second set of columns (duplicate) can be removed.
+- "Favorite Drink" is not relevant to food waste, so it can be removed.
+- Replace "??" with reasonable estimates (e.g., use the average number of students).
+- Food waste cannot be negative ("-1 kg" should be corrected).
+- Check if temperature is missing or incorrect.
+
+Day	Students	Pizza	Sandwich	Salad	Pasta	Food Waste (kg)	Temperature
+Monday	 50	        30	10	         5	5	3.0	              22°C
+Tuesday  60	        35	15	         5	5	2.5	              21°C
+Wednesday 55	        32	12	         6	5	3.2	              23°C
+Thursday 70	        45	15	         5	5	3.1	            22.5°C
+Friday	65	        40	12	         8	5	3.1	            20.5°C
+Monday	52	        31	9	         5	5	2.5	              23°C
+Tuesday	59	        33	13	         5	4	3.0	            21.3°C
+Wednesday 57	        36	14	         6	5	3.4	              22°C
+
+Next Step : Analyse data 
+Step 5: Analyze the Data
+
+Observations:
+1- Food waste is highest on Wednesday (3.2 kg).
+2- Food waste is lower on Tuesday (2.5 kg), even though more students ate.
+3-  Temperature might influence appetite → Slightly lower temperatures (20.5°C) on Friday show same food waste despite more food being served.
+4- Pizza is the most consumed food every day.
+
+
+Step 6: Draw Insights
+
+What does this data tell us?
+
+   * Salads and pasta are often wasted → Maybe students don’t like them or get too much.
+    * Food waste does not always increase with student numbers → Some meals are more liked than others.
+    *Temperature and food type impact waste → Warmer days may lead to more leftovers.
+    
+Step 7: Solve the Problem & Make Decisions
+
+ Possible solutions to reduce food waste:
+✅ Adjust portion sizes → Reduce the amount of salad & pasta served.
+✅ Survey students on meal preferences → Offer foods they actually want.
+✅ Monitor the impact of temperature → Offer lighter meals on hotter days.
+✅ Educate students about food waste → Encourage them to take only what they can eat.
+
+With data-driven decisions, the cafeteria can serve food more efficiently, reduce waste, and save money!
+
+Lesson Learned: Data helps us solve real-world problems!
+
+Summary: Introduction to Data
+* What is Data?
+
+Data is raw information collected from the world around us. It can be numbers, words, images, or measurements that help us understand and solve problems.
+* What Do We Do with Data?
+
+    - Collect → Gather information from different sources (e.g., cafeteria food choices).
+    - Clean & Organize → Fix errors, remove duplicates, and structure the data.
+    - Visualize → Represent data using charts, tables, and graphs.
+    - Analyze → Find patterns, trends, and insights.
+    - Make Decisions → Use insights to improve situations (e.g., reducing food waste).
+
+* Types of Data
+
+🔹 Qualitative (Categorical Data) → Describes qualities (e.g., food type, favorite drink).
+🔹 Quantitative (Numerical Data) → Expressed in numbers:
+
+    Discrete → Countable values (e.g., number of students).
+    Continuous → Measurable values (e.g., temperature, weight).
+
+* The Data Lifecycle
+
+ The journey of data from collection to decision-making:
+
+    Data Collection → Gathering raw data.
+    Data Cleaning → Fixing errors and organizing it.
+    Data Storage → Saving data in databases or tables.
+    Data Processing & Analysis → Finding useful insights.
+    Data Visualization → Using graphs and charts to present results.
+    Decision Making → Using insights to improve or solve problems.
