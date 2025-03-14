@@ -1,0 +1,82 @@
+**Session 2: Understanding and Visualizing Data**
+
+### **Introduction: Why Understanding Data Matters**
+In our previous session, we explored how data helped solve a real-world problem—food waste in a school cafeteria. But before we dive deeper into analysis, it's essential to understand what data actually is, how we collect it, and how we can represent it effectively.
+
+### **1. What is a Dataset?**
+A dataset is a structured collection of data, often presented in a table format where rows represent individual entries and columns represent different variables. In our case, a dataset could include:
+
+| Day        | Total Meals Served | Popular Food Item | Food Waste (kg) | Temperature (°C) |
+|------------|-------------------|------------------|----------------|----------------|
+| Monday     | 50                | Pizza            | 2.8            | 18             |
+| Tuesday    | 60                | Sandwich         | 2.5            | 20             |
+| Wednesday  | 55                | Pasta            | 3.2            | 22             |
+| Thursday   | 52                | Salad            | 2.7            | 19             |
+| Friday     | 58                | Pizza            | 2.9            | 21             |
+
+#### **Types of Data**
+- **Categorical Data** – Data that represents groups or categories (e.g., favorite food choices, day of the week)
+- **Numerical Data** – Data that consists of measurable numbers (e.g., food waste in kg, temperature in °C)
+
+### **2. Exploring the Cafeteria Dataset**
+Before jumping into visualization, it’s important to explore the dataset and ask:
+- What are the key variables?
+- What trends can be observed?
+- Are there any missing or incorrect data points?
+
+By understanding the dataset, we can decide what visualizations will be most helpful.
+
+### **3. Data Representation: Organizing for Clarity**
+Data is often stored in:
+- **Tables** – Easy to read but not always easy to interpret.
+- **CSV (Comma-Separated Values) files** – Useful for digital storage and analysis.
+- **Spreadsheets** – Commonly used for organizing and calculating data.
+
+### **4. Introduction to Data Visualization**
+Data visualization helps turn raw numbers into meaningful insights. Here are some common methods:
+
+#### **A. Bar Charts – Comparing Different Categories**
+A bar chart helps compare food waste across different days:
+
+| Day        | Food Waste (kg) |
+|------------|----------------|
+| Monday     | 2.8            |
+| Tuesday    | 2.5            |
+| Wednesday  | 3.2            |
+| Thursday   | 2.7            |
+| Friday     | 2.9            |
+
+- Each bar represents food waste for a specific day.
+- The taller the bar, the more waste there is.
+- This helps quickly identify the worst day for food waste (Wednesday).
+
+#### **B. Pie Charts – Showing Proportions**
+A pie chart can show the proportion of each food item chosen throughout the week:
+- **Pizza: 35%**
+- **Sandwich: 25%**
+- **Pasta: 20%**
+- **Salad: 20%**
+
+This visualization helps identify the most and least preferred meals.
+
+#### **C. Line Graphs – Observing Trends Over Time**
+A line graph can track how food waste changes over different days or weeks:
+- A rising trend might indicate an increasing problem.
+- A downward trend suggests improvements.
+
+### **5. Interpreting Data Visualizations**
+Once we have our charts and graphs, we need to analyze them:
+- What patterns do we see?
+- Are there any surprising insights?
+- How can we use this information to make better decisions?
+
+For example, if we notice that more food is wasted on warmer days, we might adjust the menu to include lighter meals.
+
+### **Conclusion: Turning Data into Action**
+By understanding how to structure, represent, and visualize data, we can transform raw numbers into powerful insights. In the next session, we will learn **how to use statistical methods to analyze data and make predictions.**
+
+---
+
+Would you like to add an interactive exercise for practicing data visualization? 😊
+
+

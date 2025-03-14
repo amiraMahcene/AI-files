@@ -111,6 +111,12 @@ Once we have a table, we can spot errors easily:
     Missing Values (e.g., ?? for missing student count)
     
 
+Day	Number of Students	Pizza	Sandwich	Salad	Pasta
+Monday	      50	          30	  10	          5	5
+Tuesday	      60	          35	  15	          5	5
+Wednesday     55	          32	  12	          6	5
+
+
 Step 3: Organize Data Clearly
 Once cleaned, data should be easy to read and analyze.
 
@@ -149,7 +155,7 @@ Step 4: Check for Duplicates and Missing Data
 Try yourself : 
 Day	Students Pizza	Sandwich	Salad	Pasta	Favorite Drink	Food Waste	Temperature	Day	Num of Kids	Pizaa	Sandwiche	Salads	 Passta
 Monday	 50	30	10	         5	5	Cola	          3 kg	         22°C	         Mon	   50	        30	10	5	5
-Tuesd	60	35	15	        five	5	Juice	          2.5kg	         21C	         Tuesday   Sixty	35	15	5	5
+Tuesd	 60	35	15	        five	5	Juice	          2.5kg	         21C	         Tuesday   Sixty	35	15	5	5
 Wednsday	55	32	        12	6	5	          Water	         23°C	         Wednesday 55	        32	12	6	five
 Thursday	70	45	        15	5	5	          Cola   	3.1 kg	         ??	   Thrsday	70	45	15	5	5
 Friday	65	40	twlve	        8	5	Juice	          -1 kg	        20.5°C	         Friyday   65	        40	12	8	5
@@ -188,12 +194,12 @@ Monday	52	        31	9	         5	5	2.5	              23°C
 Tuesday	59	        33	13	         5	4	3.0	            21.3°C
 Wednesday 57	        36	14	         6	5	3.4	              22°C
 
-Next Step : Analyse data 
+Next Step : Analyze data 
 Step 5: Analyze the Data
 
 Observations:
 1- Food waste is highest on Wednesday (3.2 kg).
-2- Food waste is lower on Tuesday (2.5 kg), even though more students ate.
+2- Food waste is lower on Tuesday (2.5 k5g), even though more students ate.
 3-  Temperature might influence appetite → Slightly lower temperatures (20.5°C) on Friday show same food waste despite more food being served.
 4- Pizza is the most consumed food every day.
 
