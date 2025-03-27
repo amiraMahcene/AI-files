@@ -1,0 +1,475 @@
+Exercise 1: School Performance Analysis (Education Domain)
+
+Problem: A school wants to improve students' performance in math.
+
+    Understand the Problem – Why do some students struggle? What factors affect performance?
+    Collect Missing Data – Find missing information (e.g., attendance, study hours, past grades).
+    Build and Clean the Dataset – Organize student scores, attendance, and study time. Remove duplicates and incorrect values.
+    Analyze the Data – Find patterns (e.g., do students with better attendance perform better?).
+    Get Insights – What improvements can be made?
+    Solve the Problem – Suggest solutions (e.g., tutoring programs, extra study sessions).
+
+Exercise 2: Air Pollution in the City (Environment Domain)
+
+Problem: A city wants to reduce air pollution.
+
+    Understand the Problem – What are the main causes? How does pollution affect people?
+    Collect Missing Data – Gather data on pollution levels, traffic, factories, weather, etc.
+    Build and Clean the Dataset – Remove errors (e.g., incorrect dates, duplicate records).
+    Analyze the Data – Identify peak pollution times and areas.
+    Get Insights – What causes the highest pollution?
+    Solve the Problem – Suggest solutions (e.g., limiting traffic, planting trees, using public transport).
+
+Exercise 3: Sales Improvement for a Toy Store (Business Domain)
+
+Problem: A toy store wants to increase sales.
+
+    Understand the Problem – Why are sales decreasing? What do customers prefer?
+    Collect Missing Data – Gather customer preferences, best-selling toys, seasonality, etc.
+    Build and Clean the Dataset – Organize sales data by date, toy type, price, and quantity.
+    Analyze the Data – Find trends (e.g., which toys sell best in winter?).
+    Get Insights – What products should be promoted?
+    Solve the Problem – Suggest improvements (e.g., discounts, promotions, new products).
+
+Exercise 4: Sports Performance Analysis (Sports Domain)
+
+Problem: A football coach wants to improve team performance.
+
+    Understand the Problem – What factors affect player performance?
+    Collect Missing Data – Track player fitness, training hours, diet, match performance.
+    Build and Clean the Dataset – Organize players' performance stats.
+    Analyze the Data – Identify top performers and weak points.
+    Get Insights – What changes improve performance?
+    Solve the Problem – Suggest training or dietary changes.
+
+Exercise 5: Hospital Waiting Time Reduction (Healthcare Domain)
+
+Problem: A hospital wants to reduce patient waiting times.
+
+    Understand the Problem – What causes long waiting times?
+    Collect Missing Data – Gather patient inflow, staff availability, appointment durations.
+    Build and Clean the Dataset – Organize data and remove errors.
+    Analyze the Data – Find peak hours, busiest departments.
+    Get Insights – What causes delays?
+    Solve the Problem – Suggest better scheduling or more staff.
+
+Exercise 6: Movie Recommendation System (Entertainment Domain)
+
+Problem: A streaming service wants to recommend better movies to users.
+
+    Understand the Problem – How do people choose movies? What makes a movie popular?
+    Collect Missing Data – Gather data on watch history, ratings, genres.
+    Build and Clean the Dataset – Organize and fix missing values.
+    Analyze the Data – Identify popular genres and patterns.
+    Get Insights – What movies should be recommended?
+    Solve the Problem – Improve the recommendation system.
+    
+    
+    Exercise 1: School Performance Analysis (Education Domain)
+
+Problem: A school wants to improve students' performance in math.
+Step 1: Understand the Problem
+
+    Why? Before solving a problem, we must understand its root causes. Poor math performance could be due to many factors: lack of practice, teaching methods, difficulty of exams, or even personal issues.
+    How? We interview teachers, students, and parents. We check past exam trends.
+
+Step 2: Collect Missing Data
+
+    Why? We need to find what information is missing to make informed decisions.
+    How? 
+    
+    1. Student Information
+
+    What is the student’s full name, age, and gender?
+    What is the student’s socioeconomic background (family income, parents' education level)?
+    Does the student have any medical conditions or learning disabilities?
+    What is the student’s preferred learning style (visual, auditory, kinesthetic)?
+
+2. Academic Records
+
+    What are the student’s math grades over the past few years?
+    How do they perform in other subjects?
+    How often do they complete their homework on time?
+    What type of math problems do they struggle with the most (word problems, equations, geometry, etc.)?
+    What comments have teachers made about their math performance?
+
+3. Attendance & School Engagement
+
+    How many days has the student been absent or late this year?
+    How often do they participate in class discussions?
+    Do they ask questions when they don’t understand something?
+    How do they behave in class (attentive, distracted, disruptive, etc.)?
+    How well do they work with others in group projects?
+    Do they participate in any extracurricular activities related to math?
+
+4. Study Habits & Home Environment
+
+    How many hours per week does the student study math?
+    Where do they usually study (home, library, noisy environment)?
+    Do they have access to a tutor?
+    Do their parents help them with homework?
+    How many educational books or resources do they have at home?
+    Do they have internet access for online learning?
+
+5. Psychological & Emotional Factors
+
+    Does the student enjoy learning math?
+    Do they feel confident in their math abilities?
+    Do they feel stressed about math tests and assignments?
+    Do they study with friends, or do they get distracted by peers?
+    How many hours of sleep do they get on school nights?
+
+6. Teacher-Related Data
+
+    What teaching methods does their math teacher use (lecture-based, interactive, hands-on)?
+    How experienced is their math teacher?
+    How often does the teacher provide feedback on assignments?
+    Does the teacher use technology in lessons (smartboards, online quizzes, etc.)?
+    
+    We collect:
+        Attendance records (Do students who attend more perform better?)
+        Study hours (Does more studying lead to better results?)
+        Past performance (Have students always struggled?)
+        Teacher feedback (Are some concepts particularly difficult?)
+        
+✅ Relevant Data (Useful for Analyzing Math Performance)
+1. Student Information
+
+    -Age (to compare performance across different age groups)
+    -Any medical conditions or learning disabilities (dyslexia, ADHD, etc.)
+    -Preferred learning style (visual, auditory, kinesthetic)
+
+2. Academic Records
+
+    -Math grades over the past few years (to track improvement or decline)
+    -Performance in other subjects (to check if math is the only weak subject)
+    -Homework completion rates (to see if students practice regularly)
+    -Types of math problems they struggle with (word problems, equations, geometry, etc.)
+    -Teacher feedback on math performance (specific areas of weakness or strength)
+
+3. Attendance & School Engagement
+
+    -Number of days absent or late (to see if attendance affects performance)
+    -Participation in class discussions (are they engaged in lessons?)
+    -Do they ask questions when they don’t understand something?
+    -Classroom behavior (attentive, distracted, struggling to focus)
+
+4. Study Habits & Home Environment
+
+    -Study hours per week (how much time they spend practicing math)
+    -Study environment (quiet or noisy, at home or elsewhere)
+    -Parental involvement (do parents help with homework?)
+    -Internet access for online learning resources (tutorials, practice quizzes, etc.)
+
+5. Psychological & Emotional Factors
+
+    -Does the student enjoy learning math? (motivation level)
+    -Self-confidence in math (do they believe they can improve?)
+    -Stress levels related to math exams and assignments
+    -Sleep patterns (does sleep deprivation affect performance?)
+
+6. Teacher-Related Data
+
+    -Teaching style (lecture-based, interactive, hands-on learning)
+    -How often teachers provide feedback on assignments
+    -Use of technology in math lessons (smartboards, online practice tests)
+
+❌ Irrelevant Data (Not Directly Related to Math Performance)
+
+    *Full name and gender (not necessary for analysis)
+    *Socioeconomic background (may influence performance but not directly measurable in this context)
+    *Participation in non-math extracurricular activities (like sports, music)
+    *Performance in unrelated subjects (like art, music)
+    *How well they work in group projects (unless math-related)
+    *Total number of books at home (only math-related books matter)
+    *Teacher’s overall years of experience (not as relevant as their teaching methods)
+
+Step 3: Build and Clean the Dataset
+
+https://docs.google.com/spreadsheets/d/1xWH2jP-E83syJEPsocR3p10h6_E04BwdEFD8kflzW9I/edit?gid=0#gid=0
+
+    Why? Messy data can lead to incorrect conclusions.
+    How?
+        Remove duplicate records.
+        Fix errors (e.g., missing scores, incorrect names).
+        Standardize format (e.g., all dates in "YYYY-MM-DD" format).
+🔹 Step 1: Fill in Missing Values
+
+We'll handle missing data (?) based on logical assumptions:
+
+    Age: If unknown, estimate based on grade level or similar students.
+    Math Grades: Replace missing grades with the average of the student’s other grades.
+    Study Hours: If missing, assume the class average.
+    Learning Style: If unknown, use teacher feedback or assume a general style.
+    Sleep Hours: If missing, assume the class average.
+    
+🔹 Step 2: Standardize Data Formats
+
+    Attendance: Convert all values into a numeric format (X absences instead of vague terms).
+    Participation: Use a uniform scale (High, Medium, Low).
+    Teacher Feedback: Summarize into structured categories (Needs Improvement, Average, Strong).
+ 🔹 Step 3: Remove Inconsistencies
+
+    Yes/No Values: Standardize (Yes → 1, No → 0).
+    Homework Completion: Convert Sometimes to percentages (50%).
+
+https://docs.google.com/spreadsheets/d/1xWH2jP-E83syJEPsocR3p10h6_E04BwdEFD8kflzW9I/edit?gid=0#gid=0
+
+Step 4: Analyze the Data
+
+    Why? We need to discover patterns that can explain poor performance.
+    How?
+        🔹 Step 1: Understanding the Dataset
+
+Our dataset contains students' information about:
+✅ Math Grades
+✅ Study Hours
+✅ Homework Completion
+✅ Participation in Class
+✅ Stress Levels
+✅ Sleep Hours
+✅ Internet Access
+
+We want to analyze how these factors affect students' performance.
+
+🔹 Step 2: Basic Questions & Answers
+1️⃣ Do students who study more get better grades?
+
+    Observation: Students who study more than 6 hours per week tend to have higher grades.
+    Compare btw high and low grade.
+    Example:
+        Fatima (7 hrs study) → Grades: 16-18 (High)
+        Mehdi (3 hrs study) → Grades: 10-12 (Low)
+    Conclusion: Studying more helps improve grades, but other factors also play a role.
+
+2️⃣ Does doing homework help?
+
+    Students who always do homework have better grades.
+    Students who never do homework (like Mehdi & Karim) have lower grades.
+    Conclusion: Doing homework reinforces learning and leads to better results.
+
+3️⃣ Does participation in class help?
+Participation Level	Average Grade
+High	      15+       (Good)
+Medium	      12-13     (Average)
+Low	      10 or less (Weak)
+
+    Example: Fatima (high participation) has excellent grades, while Karim (low participation) struggles.
+    Conclusion: Active students perform better because they engage more in class.
+
+4️⃣ How does stress affect students?
+
+    High-stress students (like Karim & Mehdi) have low grades.
+    Low-stress students (like Fatima) have better grades.
+    Conclusion: Stress reduces focus and performance. Students need relaxation strategies.
+
+5️⃣ Does having Internet access help?
+Internet Access	 Average          Grade
+Yes              (Has Internet)	  14+ (Good)
+No               (No Internet)	  10 or less (Weak)
+
+    Example: Fatima (has Internet) → High grades
+    Karim (no Internet) → Low grades
+    Conclusion: Internet helps with extra learning and homework research.
+
+        
+        
+
+Step 5: Get Insights
+
+ Summary
+
+✅ Study more → Get better grades
+✅ Do homework → Understand better
+✅ Participate more → Higher performance
+✅ Less stress → Better focus & grades
+✅ Internet helps in learning
+
+Step 6: Solve the Problem
+
+  
+🔹 Step 1: Identify Key Problems
+
+From our analysis, we see four main problems affecting students' performance:
+
+1️⃣ Low Study Hours (Some students study less than 5 hours per week)
+2️⃣ Low Homework Completion (Students who don’t do homework have lower grades)
+3️⃣ Low Participation in Class (Shy or distracted students struggle more)
+4️⃣ High Stress Levels (Stress negatively affects learning)
+🔹 Step 2: Solutions for Each Problem
+1️⃣ Solution: Increase Study Hours
+
+    Idea: Create a study plan with a goal of at least 6-7 hours per week.
+    Action:
+        Give students a study schedule to help them organize their time.
+        Teach time management techniques (Pomodoro technique, focus blocks).
+        Encourage group study sessions for motivation.
+
+✅ Expected Result: Students who study more will understand concepts better and improve their grades.
+2️⃣ Solution: Improve Homework Completion
+
+    Idea: Make homework more engaging and rewarding.
+    Action:
+        Introduce a reward system (extra points, certificates, small prizes).
+        Use fun challenges instead of traditional homework (e.g., solve a real-life problem).
+        Allow students to work together in small groups to encourage teamwork.
+
+✅ Expected Result: More students will complete homework, leading to better understanding and higher grades.
+3️⃣ Solution: Encourage Class Participation
+
+    Idea: Help students feel comfortable and motivated to participate.
+    Action:
+        Use interactive teaching (quizzes, debates, discussions).
+        Let students take turns explaining concepts to each other.
+        Reward participation with small bonuses to boost confidence.
+
+✅ Expected Result: More engagement in class → higher learning retention and better performance.
+4️⃣ Solution: Reduce Student Stress
+
+    Idea: Teach students how to manage stress and stay motivated.
+    Action:
+        Introduce 5-minute relaxation exercises before class (deep breathing, stretching).
+        Teach simple stress-management techniques (organizing tasks, avoiding last-minute studying).
+        Provide motivational support (encouraging words, recognizing effort).
+
+✅ Expected Result: Lower stress → better focus, confidence, and academic results.
+
+🔹 Step 3: Implementation Plan
+
+Problem	Solution	How to Apply It?	                      Expected Outcome
+Low Study Hours	        Study Plan & Group Study	              Give students a schedule & organize study groups	More study time → Better understanding
+Low Homework Completion	Reward System & Fun Challenges	              Extra points, teamwork & real-life tasks	More engagement → Higher grades
+Low Participation	Interactive Teaching & Student-Led Lessons	Use quizzes, discussions & student explanations	More active learning → Better retention
+High Stress	Relaxation & Motivation	                              Short stress-relief exercises & positive reinforcement	Less stress → More focus & confidence
+
+Exercise 2: Air Pollution in the City (Environment Domain)
+
+Problem: A city wants to reduce air pollution.
+Step 1: Understand the Problem
+
+    Why? Knowing the sources of pollution helps in creating solutions.
+    How? Research main pollution causes:
+        Traffic congestion
+        Factories and industries
+        Weather conditions (wind, rain, temperature)
+
+Step 2: Collect Missing Data
+
+    Why? We need complete information to understand pollution trends.
+    How?
+        Air quality levels at different locations.
+        Traffic data (number of cars per hour).
+        Factory emissions.
+
+Step 3: Build and Clean the Dataset
+
+    Why? A dataset with missing or incorrect values can mislead our analysis.
+    How?
+        Remove duplicate readings.
+        Fill in missing temperature values using averages.
+        Standardize time zones for consistency.
+
+Step 4: Analyze the Data
+
+    Why? Data analysis reveals trends that are not obvious at first.
+    How?
+        Identify peak pollution hours.
+        See if certain roads have higher pollution.
+        Check if weather conditions affect pollution.
+
+Step 5: Get Insights
+
+    Why? Insights allow us to create targeted solutions.
+    How?
+        If pollution is highest during rush hours, limiting traffic may help.
+        If a factory is causing high pollution, stricter regulations are needed.
+
+Step 6: Solve the Problem
+
+    Why? Our goal is to reduce pollution effectively.
+    How?
+        Create car-free zones in crowded areas.
+        Encourage public transport.
+        Introduce fines for excessive factory emissions.
+
+Exercise 3: Sales Improvement for a Toy Store (Business Domain)
+
+Problem: A toy store wants to increase sales.
+Step 1: Understand the Problem
+
+    Why? To sell more, we need to know what customers want.
+    How?
+        Find out which toys sell well and which don’t.
+        Check if sales drop during certain seasons.
+
+Step 2: Collect Missing Data
+
+    Why? Sales figures alone don’t explain customer behavior.
+    How?
+        Customer age groups.
+        Best-selling toy categories.
+        Sales on holidays vs. normal days.
+
+Step 3: Build and Clean the Dataset
+
+    Why? Incomplete data can cause incorrect strategies.
+    How?
+        Remove duplicate sales records.
+        Convert all prices to the same currency.
+
+Step 4: Analyze the Data
+
+    Why? Understanding patterns helps make better business decisions.
+    How?
+        Find top-selling and low-selling toys.
+        See if certain age groups buy more.
+
+Step 5: Get Insights
+
+    Why? Insights help decide how to improve sales.
+    How?
+        If educational toys sell well, expand that category.
+        If sales drop after holidays, introduce promotions.
+
+Step 6: Solve the Problem
+
+    Why? Turning insights into action increases revenue.
+    How?
+        Offer discounts during slow seasons.
+        Advertise the best-selling products more.
+
+Exercise 4: Sports Performance Analysis (Sports Domain)
+
+Problem: A football coach wants to improve team performance.
+Steps (Similar to Above)
+
+    Understand what affects player performance.
+    Collect missing data (training hours, diet, sleep).
+    Clean the dataset (fix wrong stats, remove duplicates).
+    Analyze data (find top-performing players, discover injury patterns).
+    Get insights (do more practice hours mean better performance?).
+    Solve the problem (adjust training schedules, recommend better diets).
+
+Exercise 5: Hospital Waiting Time Reduction (Healthcare Domain)
+
+Problem: A hospital wants to reduce patient waiting times.
+Steps (Similar to Above)
+
+    Understand the problem (what causes delays?).
+    Collect missing data (patient arrival times, doctor availability).
+    Clean the dataset (fix incorrect timestamps, remove duplicate entries).
+    Analyze data (find peak hours, slowest departments).
+    Get insights (which departments are overloaded?).
+    Solve the problem (hire more staff, introduce online appointment scheduling).
+
+Exercise 6: Movie Recommendation System (Entertainment Domain)
+
+Problem: A streaming service wants to recommend better movies to users.
+Steps (Similar to Above)
+
+    Understand how users choose movies.
+    Collect missing data (user ratings, watch history).
+    Clean the dataset (remove spam ratings).
+    Analyze data (find the most-watched genres).
+    Get insights (users who watch action movies also like sci-fi).
+    Solve the problem (improve recommendations based on user preferences).

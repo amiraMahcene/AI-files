@@ -1,0 +1,27 @@
+**Chess Champion Data Analytics Exercise**
+
+### Problem Statement:
+In high-level chess competitions, understanding move efficiency and strategy effectiveness is crucial for improving performance. This exercise aims to analyze chess game data to identify patterns that lead to higher winning probabilities.
+
+### Task:
+You are provided with a dataset of chess games, including the following information:
+- **Player Names**: Identifies the competitors in each match.
+- **Opening Strategy**: The type of opening played (e.g., Sicilian Defense, Queen's Gambit, Ruy-Lopez).
+- **Move Efficiency**: A metric representing how optimal the moves were, based on an engine evaluation.
+- **Total Moves**: The number of moves played in the game.
+- **Winner**: The player who won the game (or if it was a draw).
+
+### Objectives:
+1. **Identify Winning Strategies**: Analyze which openings and strategies correlate with higher win rates.
+2. **Evaluate Move Efficiency**: Determine whether players with higher move efficiency tend to win more frequently.
+3. **Assess Game Length Impact**: Check if shorter or longer games have a better correlation with winning chances.
+
+### Steps to Solve the Exercise:
+1. **Data Collection**: Organize the chess game dataset.
+2. **Exploratory Data Analysis (EDA)**: Use visualizations and summary statistics to find patterns in the data.
+3. **Statistical Analysis**: Compute averages and correlations between move efficiency, total moves, and win rates.
+4. **Insights & Recommendations**: Provide insights into the best strategies for winning chess games.
+
+### Expected Outcome:
+By completing this exercise, you should be able to identify key factors that contribute to winning in chess championships and suggest data-driven strategies for improving chess performance.
+
