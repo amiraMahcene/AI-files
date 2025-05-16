@@ -1,0 +1,34 @@
+The problem : City Air Pollution Analysis 
+
+A city wants to reduce air  pollution and understand its causes, patterns, and potential solutions
+
+Step 01  :  Understand the problem
+
+Ask question : 
+
+ * what are the main sources of air pollution
+ * which areas are most affected ? 
+ * at what times or seasons does pollution peak? 
+ * who is most impacted ( Children, elderly, etc..)
+ 
+ - Air quality Index
+ - Number of coffee shops in the city
+ - PM2.5 concentration
+ - Number of students enrolled in local schools
+ - Daily traffic volume
+ - Temperature and humidity 
+ - Brand of cars owned by residents
+ - Wind speed
+ - Number of parks and green areas
+ - Internet speed in households
+ - Factory emission levels
+ - Availability of public transport
+ - Number of music events per month 
+ - Burning of waste in open areas
+ - Rainfall levels
+ - Population density
+ - Weekly cinema attendance 
+ - Use of bicycles by citizen
+ - Construction activities
+ - Hospital admission due to respiratory issues
+ 

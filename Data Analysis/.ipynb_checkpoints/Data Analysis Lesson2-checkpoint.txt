@@ -1,0 +1,21 @@
+Data Analysis Lesson: Why Are Local Businesses Struggling in Our City?
+
+Context
+In your city, many small shops and cafes are closing down. People are worried - these businesses were part
+of the community. Your students are data analysts now, and their mission is to analyze the problem and suggest data-driven solutions.
+Step 0: Collect Theories (Messy Brainstorm)
+💭 "Some people visit the bakery more during weekends—especially after lunch."
+💭 "Weather was rainy last Tuesday, but people still bought coffee."
+💭 "35 ppl visited the pharmacy on Monday. Around 10 made a purchase."
+💭 "Saturday—too crowded at the bakery. Around 60? Maybe more."
+💭 “Market sales were low on Thursday, even though 45 people came in.”
+💭 “I think the florist gets more customers when the weather is nice.”
+💭 “Tuesday = 28 visitors at the coffee shop. 12 bought items. Or was it 14?”
+💭 “Sales go up when it’s sunny. Probably.”
+💭 “Some shops don’t get many visits during lunch time.”
+💭 “Friday: Bakery - 50 visitors; 35 bought croissants or bread.”
+💭 “Pharmacy on Wednesday: 20 people came, 18 bought something.”
+💭 “Temperature? Maybe like 17°C on Monday?”
+💭 “Florist Friday = sunny, lots of flowers sold – like 25?”
+💭 “Florist Wednesday… uhh... 10 people maybe?”
+💭 “Too many people at once on Sunday. Hard to count.”
