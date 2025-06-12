@@ -1,0 +1,142 @@
+Why Use Machine Leaning ?
+
+let's understand this by an example it going to be better  : 
+
+Consider how you would write a spam filter using Traditional programming techniques : 
+
+     *  First you would consider what spam typically looks like ( you might notice that some words or phrases such as 4U; Credit card; Free ; amazing tend to come up a lot in the subject line, Perhaps you would also notice a few other patterns in the sender's name, the email's body and other parts of the email
+     *  You would write a detection algorithm for each of the patterns that you noticed, and your program would flag emails as spam if a number of these patterns were detected
+     * You would test your program and repeat step 1 and 2 until it was good enough to launch
+     
+     
+  okay this we can say that it is a simple problem u will write a bunch of program to solve it right, but what if we are dealing with a complex one haaa how it is going to be ???? your program will likely become a long list of complex rules pretty hard to maintain. ( you are en engineer so that ofc not what we are looking for) 
+  
+  But a spam filter based on Machine Learning techniques automatically learn which words and phrases are good predictors of spams by detecting unusually frequent patterns of words in the spam examples compared to the harm examples . the program will be much shorter, easier to maintain and most likely more accurate
+  
+  Another side we have to look to imagine the one he is writing spam to u knows that u knew his vulnerability so here what will happened  instead of writing 4U he will write for you haaa you shale update your program again in this case , so if the spammers keep working around your spam filter you will need to keep writing rules forever .which it not good too u have to think like engineer girl
+  
+  In contrast , a spam filter based on ML techniques automatically notices that For U has become unusually frequent in spam flagged by users and it starts flagging them without your intervention
+  
+  Looking at it from another perspective, let me inform you that the size of a program usually depends on the complexity of the problem. Today, we’re dealing with a complex program to solve, so it’s understandable to feel a bit frustrated or to struggle with writing such a complicated solution
+  
+  
+
+    "Okay, we need to take some time to really understand the point here. He said that machine learning can help humans learn — and that’s actually the opposite of what we traditionally do.
+    In the traditional approach, we analyze the problem, find a solution, and then write the rules — in other words, we write the program.
+    But in this case, we give the algorithm a sequence of data to train on. Eventually, it becomes capable of solving the problem by recognizing patterns in the data.
+    What's interesting is that we can then analyze the solution produced by the algorithm to better understand the problem itself.
+    Could we call this reverse engineering? I think we can."
+    
+    
+    Okay let's summarize it : 
+    
+    *  Problems for which existing solutions require a lot of fine-tuning or long lists of rules : one ML algorithm can often simplify code and perform better than the traditional approach
+    * Complex problems for which using a traditional approach yields no good solution :  the best ML techniques can perhaps find a solution
+    
+   * Fluctuating environments : a ML system can adapt to new data 
+   * Getting insights about complex problems and large amounts of data 
+   
+   
+   
+   Types of Machine Learning Systems
+   
+   there are so many different types of ML systems that it is used to classify them in broad categories based on the following criteria : 
+   - whether or not they are trained with human supervision.
+   - Whether or not they can learn incrementally on the fly ( online vs batch learning)
+   -Whether they work by simply comparing new data points to known data points or instead by detecting patterns in the training data and building predictive model 
+   
+   
+   Supervised / Unsupervised learning
+   
+   Machine Learning systems can be classified according to the amount and type of the supervision they get during training. There are four major categories { supervised learning, unsupervised learning, semisupervised learning and reinforcement learning }
+   Supervised Learning : In supervised learning the training set you feed to the algorithm includes the desired solutions called labels 
+   
+   one of the main task of supervised learning is classification ( the example we used before spam )
+   another typical task is to predict a target numeric value 
+   
+   classification/ prediction ==  regression 
+   
+   Classification : Predicts discrete categories A class label 
+   Regression  :  Predicts continuous numerical values number as outcome
+   
+   both tasks use labeled training data ( supervised learning ) both involve finding patterns X-- Y ( input features -- target output ) 
+   the core difference is just the type target variable 
+   Classification  Y == categorical
+   Regression Y == numerical 
+   
+   So let's summrize it It emphasized that the problem defines the tool 
+   so if u need  categories  == classification
+                 numbers   == regression
+                 
+
+   
+   
+   Note :  In ML an attribute is a data type while a feature has several meaning ,depending on the context but generally means an attributes plus its value 
+   What is prediction in machine learning
+   prediction is the general goal of many machine learning models , it mean using known data to predict unknown information and regression is a type of prediction where the output is a continuous numerical value 
+   In short Regression == prediction a number 
+   
+   every regression is a prediction but not every prediction is a regression 
+   
+   Some of the most  important supervised learning algorithms 
+   : 
+   * K-Nearest Neighbors
+   * Linear Regression
+   * Logistic Regression
+   * Support Vector Machines (SVMs)
+   * Decision Tree and Random Forests 
+   * Neural network
+   
+  Unsupervised Learning  == as you might guess the training data is unlabeled the system tries to learn without a teacher 
+  
+  Some of the most important unsupervised learning algorithms : 
+  Clustering : 
+     * K-Means
+     * DBSCAN
+     * Hierarchical cluster analysis (HCA)
+   Anomaly detection and novelty detection :
+     * One-class SVM
+     * Isolation Forest
+   Visualization and dimensionality reduction :
+     * Principal Component Analysis (PCA)
+     * Kernel PCA
+     * Locally Linear Embedding
+     * t-Distributed Stochastic Neighbor Embedding (t-SNE)
+   Association rule learning
+     * Apriori
+     * Eclat
+  
+  
+  Note 
+  It is often a good idea to try to reduce the dimension of your training data using a dimensionality reduction algorithm before you feed it to another machine learning algorithm it will run much faster the data will take up less disk and memory space and in some cases it may also preform better
+  
+  
+  
+  Semisupervised Learning 
+  
+  Since labeling data is usually time consuming and costly, you will often have plenty of unlabeled instances and few labeled instances some algorithms can deal with data that's partially labeled 
+
+Mos semisupervised learning algorithms are combinations of unsupervised and supervised algorithms  
+
+Reinforcement Leaning : the learning system called an agent in this context , can observe the environment select and perform actions and get rewards in return ( penalties in the form of negative rewards) It must then learn by itself what is the best strategy called policy to get the most rewards over time a policy defines what action the agent should choose when it is in a given situation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
